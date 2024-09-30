@@ -9,8 +9,6 @@
   <ItemGroup>
     <Folder Include="Containers\" />
     <Folder Include="ValidationRules\" />
-    <Folder Include="Concretes\" />
-    <Folder Include="Abstracts\" />
   </ItemGroup>
 
   <ItemGroup>

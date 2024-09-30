@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\DataAccessLayer\\Migrations\\20240930164050_EntitiesCreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessLayer\\Migrations\\20240930164050_EntitiesCreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F5CEAFA-813E-4A59-90A0-0ABB4C3B6EBB}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\businesslayer\\abstracts\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5CEAFA-813E-4A59-90A0-0ABB4C3B6EBB}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\abstracts\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,39 +34,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Program.cs",
-              "RelativeDocumentMoniker": "FitOnWebSite\\Program.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Program.cs",
-              "RelativeToolTip": "FitOnWebSite\\Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:34:57.762Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 371,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240930164050_EntitiesCreation.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\DataAccessLayer\\Migrations\\20240930164050_EntitiesCreation.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20240930164050_EntitiesCreation.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\DataAccessLayer\\Migrations\\20240930164050_EntitiesCreation.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\20240930164050_EntitiesCreation.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAAAMUAAABHAAAAAAAAAA==",
+              "Title": "IAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\BusinessLayer\\Abstracts\\IAddressService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Abstracts\\IAddressService.cs",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\BusinessLayer\\Abstracts\\IAddressService.cs",
+              "RelativeToolTip": "BusinessLayer\\Abstracts\\IAddressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:40:51.054Z",
+              "WhenOpened": "2024-09-30T19:22:54.775Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
