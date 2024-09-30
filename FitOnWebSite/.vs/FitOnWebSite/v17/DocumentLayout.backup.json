@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F5CEAFA-813E-4A59-90A0-0ABB4C3B6EBB}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\businesslayer\\abstracts\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F5CEAFA-813E-4A59-90A0-0ABB4C3B6EBB}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\abstracts\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\views\\adminpartials\\partialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\views\\adminpartials\\partialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IAddressService.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\BusinessLayer\\Abstracts\\IAddressService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Abstracts\\IAddressService.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\BusinessLayer\\Abstracts\\IAddressService.cs",
-              "RelativeToolTip": "BusinessLayer\\Abstracts\\IAddressService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T19:22:54.775Z",
+              "Title": "PartialSidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\AdminPartials\\PartialSidebar.cshtml",
+              "RelativeDocumentMoniker": "FitOnWebSite\\Views\\AdminPartials\\PartialSidebar.cshtml",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\AdminPartials\\PartialSidebar.cshtml",
+              "RelativeToolTip": "FitOnWebSite\\Views\\AdminPartials\\PartialSidebar.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T22:42:22.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "FitOnWebSite\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "FitOnWebSite\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T22:33:37.056Z",
               "EditorCaption": ""
             }
           ]

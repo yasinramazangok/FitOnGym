@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2F5CEAFA-813E-4A59-90A0-0ABB4C3B6EBB}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\businesslayer\\abstracts\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F5CEAFA-813E-4A59-90A0-0ABB4C3B6EBB}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\abstracts\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 29,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,19 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IAddressService.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\BusinessLayer\\Abstracts\\IAddressService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Abstracts\\IAddressService.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\BusinessLayer\\Abstracts\\IAddressService.cs",
-              "RelativeToolTip": "BusinessLayer\\Abstracts\\IAddressService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T19:22:54.775Z",
-              "EditorCaption": ""
             }
           ]
         }

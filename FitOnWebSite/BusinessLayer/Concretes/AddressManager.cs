@@ -1,4 +1,5 @@
-﻿using DataAccessLayer.Abstracts;
+﻿using BusinessLayer.Abstracts;
+using DataAccessLayer.Abstracts;
 using EntityLayer.Concretes;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concretes
 {
-    public class AddressManager(IAddressDal addressDal) : IAddressDal
+    public class AddressManager(IAddressDal addressDal) : IAddressService
     {
         private readonly IAddressDal _addressDal = addressDal; // Primary Constructor
 

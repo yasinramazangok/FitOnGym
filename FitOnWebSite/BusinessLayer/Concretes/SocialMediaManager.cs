@@ -1,4 +1,5 @@
-﻿using DataAccessLayer.Abstracts;
+﻿using BusinessLayer.Abstracts;
+using DataAccessLayer.Abstracts;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concretes;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concretes
 {
-    public class SocialMediaManager(ISocialMediaDal socialMediaDal) : ISocialMediaDal
+    public class SocialMediaManager(ISocialMediaDal socialMediaDal) : ISocialMediaService
     {
         private readonly ISocialMediaDal _socialMediaDal = socialMediaDal; // Primary Constructor
 
