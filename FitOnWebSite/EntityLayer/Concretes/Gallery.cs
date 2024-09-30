@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concretes
 {
-    internal class Gallery
+    public class Gallery
     {
+        public int ID { get; set; }
+
+        public string ImageUrl { get; set; }
     }
 }

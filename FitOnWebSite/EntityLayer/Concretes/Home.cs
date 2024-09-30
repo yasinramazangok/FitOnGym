@@ -6,16 +6,20 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concretes
 {
-    public class Category
+    public class Home
     {
         public int ID { get; set; }
 
-        public string Name { get; set; }
+        public string TagLine { get; set; }
 
-        public string Description { get; set; }
+        public string TagLine1 { get; set; }
+
+        public string TagLine2 { get; set; }
+
+        public string TagLine3 { get; set; }
 
         public string ImageUrl { get; set; }
 
-        // public List<Trainer> Trainers { get; set; }
+        public string ImageUrl1 { get; set; }
     }
 }

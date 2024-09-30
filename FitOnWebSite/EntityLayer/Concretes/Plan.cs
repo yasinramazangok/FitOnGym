@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concretes
 {
-    internal class Plan
+    public class Plan
     {
+        public int ID { get; set; }
+
+        public string Limit { get; set; }
+
+        public string Price { get; set; }
+
+        public string ClassCategory { get; set; }
+
+        public string Description { get; set; }
     }
 }

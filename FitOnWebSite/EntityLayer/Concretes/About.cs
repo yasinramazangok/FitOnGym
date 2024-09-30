@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concretes
 {
-    internal class About
+    public class About
     {
+        public int ID { get; set; }
+
+        public string TagLine { get; set; }
+
+        public string Description { get; set; }
     }
 }
