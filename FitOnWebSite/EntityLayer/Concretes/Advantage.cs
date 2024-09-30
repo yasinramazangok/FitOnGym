@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concretes
 {
-    internal class Advantage
+    public class Advantage
     {
+        public int ID { get; set; }
+
+        public string TagLine { get; set; }
+
+        public string Icon { get; set; }
+
+        public string Description { get; set; }
     }
 }

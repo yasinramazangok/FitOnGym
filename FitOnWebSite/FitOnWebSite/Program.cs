@@ -1,4 +1,9 @@
+using DataAccessLayer.Contexts;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<Context>(); // for database
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

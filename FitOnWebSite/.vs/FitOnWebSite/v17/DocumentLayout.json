@@ -1,207 +1,31 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\socialmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\socialmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\entitylayer\\concretes\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65729B11-7B8E-4C60-87B4-00F6B291C5BD}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concretes\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "DockedHeight": 29,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Category.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\Category.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Category.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:27:40.336Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Gallery.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Gallery.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\Gallery.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Gallery.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\Gallery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:23:47.619Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Plan.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Plan.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\Plan.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Plan.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\Plan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:21:45.399Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Admin.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\Admin.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Admin.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:19:33.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Address.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\Address.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Address.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\Address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:34:56.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Contact.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\Contact.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Contact.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\Contact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:33:49.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Service.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\Service.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Service.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:33:05.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SocialMedia.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\SocialMedia.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\SocialMedia.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\SocialMedia.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\SocialMedia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:31:29.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "About.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\About.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\About.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\About.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\About.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:50:04.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Home.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Home.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\Home.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Home.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\Home.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:25:49.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Team.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concretes\\Team.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\Concretes\\Team.cs",
-              "RelativeToolTip": "EntityLayer\\Concretes\\Team.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:29:17.2Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
