@@ -1,0 +1,108 @@
+﻿@model EntityLayer.Concretes.Address
+
+@{
+    ViewData["Title"] = "UpdateAddress";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Adres Güncelle</h4>
+            <form class="forms-sample" method="post">
+                @Html.HiddenFor(a => a.ID)
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Ülke</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Ülke adını giriniz" asp-for="Country">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Şehir</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Şehir adını giriniz" asp-for="City">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">İlçe</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="İlçe adını giriniz" asp-for="District">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Mahalle</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Mahalle adını giriniz" asp-for="Neighbourhood">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Cadde</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Cadde adını giriniz" asp-for="Avenue">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Sokak</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Sokak adını giriniz" asp-for="Street">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Bina Numarası</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Bina numarasını giriniz" asp-for="BuildingNumber">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Bina Adı</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Bina adını giriniz" asp-for="Apartment">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Kat</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kat bilgisi giriniz" asp-for="Floor">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Kapı Numarası</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kapı numarasını giriniz" asp-for="DoorNumber">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Posta Kodu</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Posta kodunu giriniz" asp-for="PostalCode">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Telefon Numarası</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Telefon numarasını giriniz" asp-for="PhoneNumber">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Diğer Telefon</label>
+                    <div class="col-sm-9">
+                        <input type="tel" class="form-control" placeholder="Diğer telefonu giriniz" asp-for="PhoneNumber1">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" placeholder="Email adresini giriniz" asp-for="Email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Harita Bilgisi</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Harita bilgisini giriniz" asp-for="MapInformation">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mr-2">Kaydet</button>
+            </form>
+        </div>
+    </div>
+</div>

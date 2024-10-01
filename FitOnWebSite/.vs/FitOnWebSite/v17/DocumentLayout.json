@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\views\\admin\\updateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\views\\admin\\updateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\views\\admin\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\views\\admin\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\views\\address\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\views\\address\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\views\\address\\updateaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\views\\address\\updateaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,15 +55,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "FitOnWebSite\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "FitOnWebSite\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T18:01:52.379Z",
+              "Title": "UpdateAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Admin\\UpdateAdmin.cshtml",
+              "RelativeDocumentMoniker": "FitOnWebSite\\Views\\Admin\\UpdateAdmin.cshtml",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Admin\\UpdateAdmin.cshtml",
+              "RelativeToolTip": "FitOnWebSite\\Views\\Admin\\UpdateAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T19:31:11.988Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Admin\\AddAdmin.cshtml",
+              "RelativeDocumentMoniker": "FitOnWebSite\\Views\\Admin\\AddAdmin.cshtml",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Admin\\AddAdmin.cshtml",
+              "RelativeToolTip": "FitOnWebSite\\Views\\Admin\\AddAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T19:27:58.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "FitOnWebSite\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "FitOnWebSite\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAADiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T19:23:00.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "FitOnWebSite\\Controllers\\AddressController.cs",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "FitOnWebSite\\Controllers\\AddressController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:21:45.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Address\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitOnWebSite\\Views\\Address\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Address\\Index.cshtml",
+              "RelativeToolTip": "FitOnWebSite\\Views\\Address\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T19:19:21.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateAddress.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Address\\UpdateAddress.cshtml",
+              "RelativeDocumentMoniker": "FitOnWebSite\\Views\\Address\\UpdateAddress.cshtml",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Address\\UpdateAddress.cshtml",
+              "RelativeToolTip": "FitOnWebSite\\Views\\Address\\UpdateAddress.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T19:19:21.553Z"
             }
           ]
         }
