@@ -685,6 +685,10 @@
       "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\file-icons\\vivaldi.png"
     },
     {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fıton5.svg",
+      "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\fıton5.svg"
+    },
+    {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\lightbox\\play-button.png",
       "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\lightbox\\play-button.png"
     },
@@ -3579,14 +3583,6 @@
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\screenshot.jpg",
       "PackagePath": "staticwebassets\\ConnectPlusAdmin\\screenshot.jpg"
-    },
-    {
-      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\FitOnGymLogo.png",
-      "PackagePath": "staticwebassets\\FitOnGymLogo.png"
-    },
-    {
-      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\FitOnGymLogoTransparent.png",
-      "PackagePath": "staticwebassets\\FitOnGymLogoTransparent.png"
     },
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\404.html",
