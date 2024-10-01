@@ -9,7 +9,7 @@
     <div class="card">
         <div class="card-body">
             <h4 class="card-title">Mesaj Detayları</h4>
-            <form class="forms-sample" method="post">
+            <form class="forms-sample" method="get">
                 <div class="form-group">
                     @Html.HiddenFor(c => c.ID)
                     <label for="exampleInputName1">İsim</label>
@@ -27,6 +27,7 @@
                     <label for="exampleInputName1">Mesaj</label>
                     <textarea class="form-control" cols="10" rows="25" asp-for="Message"></textarea>
                 </div>
+                <a class="btn btn-outline-secondary mr-2" href="/Admin/Index/">Geri</a>
             </form>
         </div>
     </div>

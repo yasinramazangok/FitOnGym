@@ -1,32 +1,19 @@
+using BusinessLayer.Abstracts;
 using FitOnWebSite.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace FitOnWebSite.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(IHomeService homeService) : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        private readonly IHomeService _homeService = homeService; // Primary Constructor
 
         public IActionResult Index()
         {
-            return View();
+            var values = _homeService.GetListAll();
+            return View(values);
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
     }
 }

@@ -1,12 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Abstracts;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
-    public class TeamController : Controller
+    public class TeamController(ITeamService teamService) : Controller
     {
+        private readonly ITeamService _teamService = teamService; // Primary Constructor
+
         public IActionResult Index()
         {
-            return View();
+            var values = _teamService.GetListAll();
+            return View(values);
         }
     }
 }

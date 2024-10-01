@@ -1,0 +1,37 @@
+﻿@model EntityLayer.Concretes.Advantage
+
+@{
+    ViewData["Title"] = "UpdateAdvantage";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Avantajları Güncelle</h4>
+            <form class="forms-sample" method="post">
+                @Html.HiddenFor(a => a.ID)
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Üst Bilgi</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Üst bilgiyi giriniz" asp-for="TagLine">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">İcon</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="İcon bilgisini giriniz" asp-for="Icon">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Açıklama</label>
+                    <div class="col-sm-9">
+                        <textarea type="text" class="form-control" placeholder="Açıklamayı giriniz" asp-for="Description"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mr-2">Kaydet</button>
+                <a class="btn btn-outline-secondary mr-2" href="/Advantage/Index/">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>

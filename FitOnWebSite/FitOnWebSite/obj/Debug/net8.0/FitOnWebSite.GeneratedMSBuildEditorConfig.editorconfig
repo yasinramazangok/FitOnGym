@@ -70,6 +70,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Advantage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2YW50YWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Advantage/UpdateAdvantage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2YW50YWdlXFVwZGF0ZUFkdmFudGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Contact/GetMessageDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxHZXRNZXNzYWdlRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -78,12 +90,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Gallery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Plan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Shared/Error.cshtml]
@@ -96,6 +116,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/SocialMedia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Team/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/_ViewImports.cshtml]

@@ -1,12 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Abstracts;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
-    public class PlanController : Controller
+    public class PlanController(IPlanService planService) : Controller
     {
+        private readonly IPlanService _planService = planService; // Primary Constructor
+
         public IActionResult Index()
         {
-            return View();
+            var values = _planService.GetListAll();
+            return View(values);
         }
     }
 }

@@ -1,12 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Abstracts;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
-    public class GalleryController : Controller
+    public class GalleryController(IGalleryService galleryService) : Controller
     {
+        private readonly IGalleryService _galleryService = galleryService; // Primary Constructor
+
         public IActionResult Index()
         {
-            return View();
+            var values = _galleryService.GetListAll();
+            return View(values);
         }
     }
 }
