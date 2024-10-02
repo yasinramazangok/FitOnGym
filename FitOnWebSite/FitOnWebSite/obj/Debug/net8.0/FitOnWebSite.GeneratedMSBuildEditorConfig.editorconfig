@@ -98,8 +98,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Gallery/AddGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxBZGRHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Gallery/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Gallery/UpdateGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxVcGRhdGVHYWxsZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Home/Index.cshtml]

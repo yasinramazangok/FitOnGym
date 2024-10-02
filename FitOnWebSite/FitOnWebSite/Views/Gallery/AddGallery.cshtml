@@ -1,0 +1,24 @@
+﻿@model EntityLayer.Concretes.Gallery
+
+@{
+    ViewData["Title"] = "AddGallery";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yeni Görsel</h4>
+            <form class="forms-sample" method="post">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Görsel Yolu</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kullanıcı adını giriniz" asp-for="ImageUrl">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mr-2">Kaydet</button>
+                <a class="btn btn-outline-secondary mr-2" href="/Category/Index/">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>

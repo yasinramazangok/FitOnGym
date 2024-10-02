@@ -41,6 +41,9 @@ namespace BusinessLayer.Containers
 
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
+
+            services.AddScoped<IGalleryService, GalleryManager>();
+            services.AddScoped<IGalleryDal, EfGalleryDal>();
         }
     }
 }
