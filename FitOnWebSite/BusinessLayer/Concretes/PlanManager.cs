@@ -1,4 +1,5 @@
-﻿using DataAccessLayer.Abstracts;
+﻿using BusinessLayer.Abstracts;
+using DataAccessLayer.Abstracts;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concretes;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concretes
 {
-    public class PlanManager(IPlanDal planDal) : IPlanDal
+    public class PlanManager(IPlanDal planDal) : IPlanService
     {
         private readonly IPlanDal _planDal = planDal; // Primary Constructor
 

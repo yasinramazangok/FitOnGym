@@ -38,6 +38,9 @@ namespace BusinessLayer.Containers
 
             services.AddScoped<IAdvantageService, AdvantageManager>();
             services.AddScoped<IAdvantageDal, EfAdvantageDal>();
+
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICategoryDal, EfCategoryDal>();
         }
     }
 }

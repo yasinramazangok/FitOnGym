@@ -5049,6 +5049,18 @@
       "PackagePath": "staticwebassets\\GymLife\\img\\breadcrumb-bg.jpg"
     },
     {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\bg_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\bg_2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\bg_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\bg_3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\bg_3.jpg"
+    },
+    {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\class-1.jpg",
       "PackagePath": "staticwebassets\\GymLife\\img\\classes\\class-1.jpg"
     },
@@ -5075,6 +5087,50 @@
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\class-details\\trainer-profile.jpg",
       "PackagePath": "staticwebassets\\GymLife\\img\\classes\\class-details\\trainer-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\coach-1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\coach-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\diyet.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\diyet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\image_1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\image_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\image_2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\image_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\image_3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\image_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\image_5.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\image_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\image_6.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\image_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\nutrition.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\nutrition.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\pilates.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\pilates.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\services-2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\services-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\services-3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\classes\\services-3.jpg"
     },
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\gallery\\gallery-1.jpg",
@@ -5119,6 +5175,198 @@
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\hero\\hero-2.jpg",
       "PackagePath": "staticwebassets\\GymLife\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\about-breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\about-breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\about-us.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\about-us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\avatar-1.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\avatar-1.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\avatar-2.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\avatar-2.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\avatar-3.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\avatar-3.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\blog-details-video.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\blog-details-video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\chose-us-bg.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\chose-us-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\class\\author-1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\class\\author-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\class\\author-2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\class\\author-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\class\\author-3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\class\\author-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\class\\author-4.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\class\\author-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\class\\author-5.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\class\\author-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\class\\author-6.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\class\\author-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\class\\class-1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\class\\class-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\contact-form-bg.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\contact-form-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\cta-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\gallery\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\gallery\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\gallery\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\gallery\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\gallery\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\gallery\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\gallery\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\gallery\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\gallery\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\gallery\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\gallery\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\gallery\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\gallery\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\gallery\\gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\icon-1.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\icon-2.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\icon-3.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\icon-4.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\icon-4.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\latest-1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\latest-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\latest-2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\latest-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\latest-3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\latest-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\logo-normal.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\logo-normal.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\logo.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\map-location.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\map-location.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\slider-bg-1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\slider-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\slider-bg-2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\slider-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\slider-bg-3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\slider-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\trainer-1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\trainer-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\trainer-2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\trainer-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\trainer-3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\trainer-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\trainer-bg.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\trainer-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\trainer\\trainer-1.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\trainer\\trainer-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\trainer\\trainer-2.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\trainer\\trainer-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\trainer\\trainer-3.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\trainer\\trainer-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\trainer\\trainer-4.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\trainer\\trainer-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\img\\video-bg.jpg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\img\\video-bg.jpg"
     },
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\letest-blog\\latest-1.jpg",

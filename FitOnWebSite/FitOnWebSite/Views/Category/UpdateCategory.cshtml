@@ -1,0 +1,46 @@
+﻿@model EntityLayer.Concretes.Category
+
+@{
+    ViewData["Title"] = "UpdateCategory";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Kategori Güncelle</h4>
+            <form class="forms-sample" method="post">
+                @Html.HiddenFor(c => c.ID)
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Kategori Adı</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kullanıcı adını giriniz" asp-for="Name">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Türü</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kategori türünü giriniz" asp-for="Type">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Açıklama</label>
+                    <div class="col-sm-9">
+                        <textarea type="text" class="form-control" placeholder="Açıklamayı giriniz" asp-for="Description"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Görsel Yolu</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Görsel yolunu giriniz" asp-for="ImageUrl">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mr-2">Kaydet</button>
+                <a class="btn btn-outline-secondary mr-2" href="/Category/Index/">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
