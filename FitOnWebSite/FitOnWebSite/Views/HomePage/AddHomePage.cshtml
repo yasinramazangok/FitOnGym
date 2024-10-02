@@ -1,0 +1,54 @@
+﻿@model EntityLayer.Concretes.HomePage
+
+@{
+    ViewData["Title"] = "AddHomePage";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Ana Sayfa Yeni Öğe</h4>
+            <form class="forms-sample" method="post">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Üst Bilgi</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kullanıcı adını giriniz" asp-for="TagLine">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Üst Bilgi 1</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kullanıcı adını giriniz" asp-for="TagLine1">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Üst Bilgi 2</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kullanıcı adını giriniz" asp-for="TagLine2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Üst Bilgi 3</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kullanıcı adını giriniz" asp-for="TagLine3">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Görsel Yolu</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kullanıcı adını giriniz" asp-for="ImageUrl">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Görsel Yolu 1</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Kullanıcı adını giriniz" asp-for="ImageUrl1">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mr-2">Kaydet</button>
+                <a class="btn btn-outline-secondary mr-2" href="/HomePage/Index/">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>

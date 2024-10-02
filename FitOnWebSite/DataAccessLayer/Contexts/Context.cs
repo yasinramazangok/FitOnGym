@@ -22,7 +22,7 @@ namespace DataAccessLayer.Contexts
         public DbSet<Category> Categories { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Gallery> Galleries { get; set; }
-        public DbSet<Home> Homes { get; set; }
+        public DbSet<HomePage> HomePages { get; set; }
         public DbSet<Plan> Plans { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<SocialMedia> SocialMedias { get; set; }

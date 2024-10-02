@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstracts
 {
-    public interface IHomeService : IGenericService<Home>
+    public interface IHomePageService : IGenericService<HomePage>
     {
     }
 }

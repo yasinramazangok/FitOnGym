@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concretes
 {
-    public class Home
+    public class HomePage
     {
         public int ID { get; set; }
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstracts
 {
-    public interface IHomeDal : IGenericDal<Home>
+    public interface IHomePageDal : IGenericDal<HomePage>
     {
     }
 }

@@ -6,51 +6,51 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
-    public class PlanController(IPlanService planService) : Controller
+    public class HomePageController(IHomePageService homePageService) : Controller
     {
-        private readonly IPlanService _planService = planService; // Primary Constructor
+        private readonly IHomePageService _homePageService = homePageService; // Primary Constructor
 
         public IActionResult Index()
         {
-            var values = _planService.GetListAll();
+            var values = _homePageService.GetListAll();
             return View(values);
         }
 
         [HttpGet]
-        public IActionResult AddPlan()
+        public IActionResult AddHomePage()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult AddPlan(Plan plan)
+        public IActionResult AddHomePage(HomePage homePage)
         {
-            _planService.Insert(plan);
+            _homePageService.Insert(homePage);
             return RedirectToAction("Index");
         }
 
-        public IActionResult DeletePlan(int id)
+        public IActionResult DeleteHomePage(int id)
         {
-            var value = _planService.GetById(id);
-            _planService.Delete(value);
+            var value = _homePageService.GetById(id);
+            _homePageService.Delete(value);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
-        public IActionResult UpdatePlan(int id)
+        public IActionResult UpdateHomePage(int id)
         {
-            var value = _planService.GetById(id);
+            var value = _homePageService.GetById(id);
             return View(value);
         }
 
         [HttpPost]
-        public IActionResult UpdatePlan(Plan plan)
+        public IActionResult UpdateHomePage(HomePage homePage)
         {
-            PlanValidator homePageValidator = new PlanValidator();
-            ValidationResult result = homePageValidator.Validate(plan);
+            HomePageValidator homePageValidator = new HomePageValidator();
+            ValidationResult result = homePageValidator.Validate(homePage);
             if (result.IsValid)
             {
-                _planService.Update(plan);
+                _homePageService.Update(homePage);
                 return RedirectToAction("Index");
             }
             else

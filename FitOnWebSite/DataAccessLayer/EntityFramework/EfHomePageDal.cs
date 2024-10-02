@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfHomeDal : GenericRepositoryDal<Home>, IHomeDal
+    public class EfHomePageDal : GenericRepositoryDal<HomePage>, IHomePageDal
     {
     }
 }
