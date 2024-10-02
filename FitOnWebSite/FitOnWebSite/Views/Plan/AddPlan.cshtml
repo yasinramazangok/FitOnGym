@@ -1,0 +1,43 @@
+﻿@model EntityLayer.Concretes.Plan
+
+@{
+    ViewData["Title"] = "AddPlan";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yeni Paket</h4>
+            <form class="forms-sample" method="post">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Limit</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Limit bilgisini giriniz" asp-for="Limit">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Fiyat</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Fiyat bilgisini giriniz" asp-for="Price">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Sınıf Kategorisi</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Sınıf kategorisini giriniz" asp-for="ClassCategory">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Açıklama</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Açıklamayı giriniz" asp-for="Description">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mr-2">Kaydet</button>
+                <a class="btn btn-outline-secondary mr-2" href="/Plan/Index/">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>
+

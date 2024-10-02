@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\views\\plan\\updateplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\views\\plan\\updateplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,19 +14,20 @@
       "DocumentGroups": [
         {
           "DockedHeight": 29,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdatePlan.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Plan\\UpdatePlan.cshtml",
+              "RelativeDocumentMoniker": "FitOnWebSite\\Views\\Plan\\UpdatePlan.cshtml",
+              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Views\\Plan\\UpdatePlan.cshtml",
+              "RelativeToolTip": "FitOnWebSite\\Views\\Plan\\UpdatePlan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T19:57:42.203Z",
+              "EditorCaption": ""
             }
           ]
         }

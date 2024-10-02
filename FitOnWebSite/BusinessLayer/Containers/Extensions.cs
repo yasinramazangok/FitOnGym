@@ -48,6 +48,9 @@ namespace BusinessLayer.Containers
             services.AddScoped<IHomePageService, HomePageManager>();
             services.AddScoped<IHomePageDal, EfHomePageDal>();
 
+            services.AddScoped<IPlanService, PlanManager>();
+            services.AddScoped<IPlanDal, EfPlanDal>();
+
 
         }
     }

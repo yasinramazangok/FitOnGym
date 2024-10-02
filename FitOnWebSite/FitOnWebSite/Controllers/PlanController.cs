@@ -46,8 +46,8 @@ namespace FitOnWebSite.Controllers
         [HttpPost]
         public IActionResult UpdatePlan(Plan plan)
         {
-            PlanValidator homePageValidator = new PlanValidator();
-            ValidationResult result = homePageValidator.Validate(plan);
+            PlanValidator planValidator = new PlanValidator();
+            ValidationResult result = planValidator.Validate(plan);
             if (result.IsValid)
             {
                 _planService.Update(plan);
