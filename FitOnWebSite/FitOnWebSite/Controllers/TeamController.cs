@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Abstracts;
 using BusinessLayer.ValidationRules;
 using EntityLayer.Concretes;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
@@ -15,51 +16,51 @@ namespace FitOnWebSite.Controllers
             return View(values);
         }
 
-        //[HttpGet]
-        //public IActionResult AddService()
-        //{
-        //    return View();
-        //}
+        [HttpGet]
+        public IActionResult AddTeam()
+        {
+            return View();
+        }
 
-        //[HttpPost]
-        //public IActionResult AddService(Service service)
-        //{
-        //    _serviceService.Insert(service);
-        //    return RedirectToAction("Index");
-        //}
+        [HttpPost]
+        public IActionResult AddTeam(Team team)
+        {
+            _teamService.Insert(team);
+            return RedirectToAction("Index");
+        }
 
-        //public IActionResult DeleteService(int id)
-        //{
-        //    var value = _serviceService.GetById(id);
-        //    _serviceService.Delete(value);
-        //    return RedirectToAction("Index");
-        //}
+        public IActionResult DeleteTeam(int id)
+        {
+            var value = _teamService.GetById(id);
+            _teamService.Delete(value);
+            return RedirectToAction("Index");
+        }
 
-        //[HttpGet]
-        //public IActionResult UpdateService(int id)
-        //{
-        //    var value = _serviceService.GetById(id);
-        //    return View(value);
-        //}
+        [HttpGet]
+        public IActionResult UpdateTeam(int id)
+        {
+            var value = _teamService.GetById(id);
+            return View(value);
+        }
 
-        //[HttpPost]
-        //public IActionResult UpdateService(Service service)
-        //{
-        //    ServiceValidator serviceValidator = new ServiceValidator();
-        //    ValidationResult result = serviceValidator.Validate(service);
-        //    if (result.IsValid)
-        //    {
-        //        _serviceService.Update(service);
-        //        return RedirectToAction("Index");
-        //    }
-        //    else
-        //    {
-        //        foreach (var item in result.Errors)
-        //        {
-        //            ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
-        //        }
-        //    }
-        //    return View();
-        //}
+        [HttpPost]
+        public IActionResult UpdateTeam(Team team)
+        {
+            TeamValidator teamValidator = new TeamValidator();
+            ValidationResult result = teamValidator.Validate(team);
+            if (result.IsValid)
+            {
+                _teamService.Update(team);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                foreach (var item in result.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
+            return View();
+        }
     }
 }

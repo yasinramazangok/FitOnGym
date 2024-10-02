@@ -1,0 +1,39 @@
+﻿@model EntityLayer.Concretes.SocialMedia
+
+@{
+    ViewData["Title"] = "AddSocialMedia";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yeni Sosyal Medya</h4>
+            <form class="forms-sample" method="post">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Başlık</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Başlığı giriniz" asp-for="Title">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">İcon</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="İcon giriniz" asp-for="Icon">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Url</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Url giriniz" asp-for="Url">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mr-2">Kaydet</button>
+                <a class="btn btn-outline-secondary mr-2" href="/SocialMedia/Index/">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,6 +1,8 @@
 ﻿using BusinessLayer.Abstracts;
 using BusinessLayer.ValidationRules;
 using EntityLayer.Concretes;
+using FluentValidation;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
@@ -16,50 +18,50 @@ namespace FitOnWebSite.Controllers
         }
 
         [HttpGet]
-        public IActionResult AddService()
+        public IActionResult AddSocialMedia()
         {
             return View();
         }
 
-        //[HttpPost]
-        //public IActionResult AddService(Service service)
-        //{
-        //    _serviceService.Insert(service);
-        //    return RedirectToAction("Index");
-        //}
+        [HttpPost]
+        public IActionResult AddSocialMedia(SocialMedia socialMedia)
+        {
+            _socialMediaService.Insert(socialMedia);
+            return RedirectToAction("Index");
+        }
 
-        //public IActionResult DeleteService(int id)
-        //{
-        //    var value = _serviceService.GetById(id);
-        //    _serviceService.Delete(value);
-        //    return RedirectToAction("Index");
-        //}
+        public IActionResult DeleteSocialMedia(int id)
+        {
+            var value = _socialMediaService.GetById(id);
+            _socialMediaService.Delete(value);
+            return RedirectToAction("Index");
+        }
 
-        //[HttpGet]
-        //public IActionResult UpdateService(int id)
-        //{
-        //    var value = _serviceService.GetById(id);
-        //    return View(value);
-        //}
+        [HttpGet]
+        public IActionResult UpdateSocialMedia(int id)
+        {
+            var value = _socialMediaService.GetById(id);
+            return View(value);
+        }
 
-        //[HttpPost]
-        //public IActionResult UpdateService(Service service)
-        //{
-        //    ServiceValidator serviceValidator = new ServiceValidator();
-        //    ValidationResult result = serviceValidator.Validate(service);
-        //    if (result.IsValid)
-        //    {
-        //        _serviceService.Update(service);
-        //        return RedirectToAction("Index");
-        //    }
-        //    else
-        //    {
-        //        foreach (var item in result.Errors)
-        //        {
-        //            ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
-        //        }
-        //    }
-        //    return View();
-        //}
+        [HttpPost]
+        public IActionResult UpdateSocialMedia(SocialMedia socialMedia)
+        {
+            SocialMediaValidator socialMediaValidator = new SocialMediaValidator();
+            ValidationResult result = socialMediaValidator.Validate(socialMedia);
+            if (result.IsValid)
+            {
+                _socialMediaService.Update(socialMedia);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                foreach (var item in result.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
+            return View();
+        }
     }
 }
