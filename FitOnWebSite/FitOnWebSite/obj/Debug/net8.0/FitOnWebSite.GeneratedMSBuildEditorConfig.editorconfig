@@ -134,8 +134,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblxVcGRhdGVQbGFuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Service/AddService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxBZGRTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Service/UpdateService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxVcGRhdGVTZXJ2aWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Shared/Error.cshtml]
