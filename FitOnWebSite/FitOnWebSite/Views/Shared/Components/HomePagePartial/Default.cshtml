@@ -1,0 +1,41 @@
+﻿@using EntityLayer.Concretes
+@model List<HomePage>
+
+<!-- Hero Section Begin -->
+<section class="hero-section">
+    <div class="hs-slider owl-carousel">
+        <div class="hs-item set-bg" data-setbg="/GymLife/img/hero/hero-1.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-6">
+                        @foreach (var item in Model)
+                        {
+                            <div class="hi-text">
+                                <span>@item.TagLine</span>
+                                <h1><strong>@item.TagLine1</strong></h1>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hs-item set-bg" data-setbg="/GymLife/img/hero/hero-2.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-6">
+                        @foreach (var item in Model)
+                        {
+                            <div class="hi-text">
+
+                                <span>@item.TagLine2</span>
+                                <h1><strong>@item.TagLine3</strong></h1>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</section>
+<!-- Hero Section End -->

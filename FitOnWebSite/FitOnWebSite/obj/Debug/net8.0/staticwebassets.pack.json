@@ -461,6 +461,10 @@
       "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\favicon1.png",
+      "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\favicon1.png"
+    },
+    {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\file-icons\\128\\001-interface-1.png",
       "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\file-icons\\128\\001-interface-1.png"
     },
@@ -685,8 +689,12 @@
       "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\file-icons\\vivaldi.png"
     },
     {
-      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fıton5.svg",
-      "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\fıton5.svg"
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fiton-logo-white.svg",
+      "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\fiton-logo-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fiton-logo.svg",
+      "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\fiton-logo.svg"
     },
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\lightbox\\play-button.png",
@@ -5131,6 +5139,10 @@
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\classes\\services-3.jpg",
       "PackagePath": "staticwebassets\\GymLife\\img\\classes\\services-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\fiton-logo-white.svg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\fiton-logo-white.svg"
     },
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\gallery\\gallery-1.jpg",

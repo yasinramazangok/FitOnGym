@@ -20,7 +20,8 @@
                 <div class="form-group row">
                     <label class="col-sm-3 col-form-label">İsim</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" placeholder="Başlığı giriniz" asp-for="Name">
+                        <input type="text" class="form-control" placeholder="İsim giriniz" asp-for="Name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="form-group row">

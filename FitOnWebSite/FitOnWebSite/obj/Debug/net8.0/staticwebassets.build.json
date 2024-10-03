@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ucPHu4FDr4jsRnL3es3UWLPa/em3PQ7CxHpL41LWK2s=",
+  "Hash": "5JwtRbE3qLYOUQJy2B82GMJRqDLmWqc/y5Ecan9PD7w=",
   "Source": "FitOnWebSite",
   "BasePath": "_content/FitOnWebSite",
   "Mode": "Default",
@@ -2183,6 +2183,25 @@
       "OriginalItemSpec": "wwwroot\\ConnectPlusAdmin\\assets\\images\\favicon.png"
     },
     {
+      "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\favicon1.png",
+      "SourceId": "FitOnWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\",
+      "BasePath": "_content/FitOnWebSite",
+      "RelativePath": "ConnectPlusAdmin/assets/images/favicon1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ConnectPlusAdmin\\assets\\images\\favicon1.png"
+    },
+    {
       "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\file-icons\\128\\001-interface-1.png",
       "SourceId": "FitOnWebSite",
       "SourceType": "Discovered",
@@ -3247,12 +3266,12 @@
       "OriginalItemSpec": "wwwroot\\ConnectPlusAdmin\\assets\\images\\file-icons\\vivaldi.png"
     },
     {
-      "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fıton5.svg",
+      "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fiton-logo.svg",
       "SourceId": "FitOnWebSite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\",
       "BasePath": "_content/FitOnWebSite",
-      "RelativePath": "ConnectPlusAdmin/assets/images/fıton5.svg",
+      "RelativePath": "ConnectPlusAdmin/assets/images/fiton-logo.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3263,7 +3282,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ConnectPlusAdmin\\assets\\images\\fıton5.svg"
+      "OriginalItemSpec": "wwwroot\\ConnectPlusAdmin\\assets\\images\\fiton-logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fiton-logo-white.svg",
+      "SourceId": "FitOnWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\",
+      "BasePath": "_content/FitOnWebSite",
+      "RelativePath": "ConnectPlusAdmin/assets/images/fiton-logo-white.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ConnectPlusAdmin\\assets\\images\\fiton-logo-white.svg"
     },
     {
       "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\lightbox\\play-button.png",
@@ -18331,6 +18369,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GymLife\\img\\classes\\services-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\fiton-logo-white.svg",
+      "SourceId": "FitOnWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\",
+      "BasePath": "_content/FitOnWebSite",
+      "RelativePath": "GymLife/img/fiton-logo-white.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GymLife\\img\\fiton-logo-white.svg"
     },
     {
       "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\gallery\\gallery-1.jpg",
