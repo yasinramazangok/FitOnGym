@@ -1,9 +1,8 @@
-﻿using BusinessLayer.Abstracts;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.ViewComponents
 {
-    public class HeadPartial : ViewComponent
+    public class ScriptPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {

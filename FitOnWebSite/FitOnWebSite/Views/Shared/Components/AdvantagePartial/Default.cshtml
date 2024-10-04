@@ -1,0 +1,29 @@
+﻿ @using EntityLayer.Concretes
+ @model List<Advantage>
+
+<!-- ChoseUs Section Begin -->
+<section class="choseus-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <span>NEDEN BİZİ SEÇMELİSİN?</span>
+                    <h2>SINIRLARINIZI İLERİYE TAŞIYIN..</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span class="@item.Icon"></span>
+                        <h4>@item.TagLine</h4>
+                        <p style="text-align: justify;">@item.Description</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<!-- ChoseUs Section End -->

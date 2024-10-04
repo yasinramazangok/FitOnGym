@@ -1,0 +1,72 @@
+﻿<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
+<!-- Offcanvas Menu Section Begin -->
+<div class="offcanvas-menu-overlay"></div>
+<div class="offcanvas-menu-wrapper">
+    <div class="canvas-close">
+        <i class="fa fa-close"></i>
+    </div>
+    <div class="canvas-search search-switch">
+        <i class="fa fa-search"></i>
+    </div>
+    <nav class="canvas-menu mobile-menu">
+        <ul>
+            <li><a href="./index.html">ANA SAYFA</a></li>
+            <li><a href="./about-us.html">HAKKIMIZDA</a></li>
+            <li><a href="./classes.html">KATEGORİLER</a></li>
+            <li><a href="./services.html">HİZMETLER</a></li>
+            <li><a href="./team.html">EKİBİMİZ</a></li>
+            <li><a href="./team.html">GALERİ</a></li>
+            <li><a href="./contact.html">İLETİŞİM</a></li>
+        </ul>
+    </nav>
+    <div id="mobile-menu-wrap"></div>
+    <div class="canvas-social">
+        @await Component.InvokeAsync("SocialMediaPartial")
+    </div>
+</div>
+<!-- Offcanvas Menu Section End -->
+<!-- Header Section Begin -->
+<header class="header-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="~/GymLife/img/fiton-logo-white.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <nav class="nav-menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">ANA SAYFA</a></li>
+                        <li><a href="./about-us.html">HAKKIMIZDA</a></li>
+                        <li><a href="./classes.html">KATEGORİLER</a></li>
+                        <li><a href="./services.html">HİZMETLER</a></li>
+                        <li><a href="./team.html">EKİBİMİZ</a></li>
+                        <li><a href="./team.html">GALERİ</a></li>
+                        <li><a href="./contact.html">İLETİŞİM</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3">
+                <div class="top-option">
+                    <div class="to-search search-switch">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="to-social">
+                        @await Component.InvokeAsync("SocialMediaPartial")
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="canvas-open">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+</header>
+<!-- Header End -->

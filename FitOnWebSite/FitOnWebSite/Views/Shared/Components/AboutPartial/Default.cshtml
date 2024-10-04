@@ -1,0 +1,80 @@
+﻿@using EntityLayer.Concretes
+@model List<About>
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb-text">
+                    <h2>Hakkımızda</h2>
+                    <div class="bt-option">
+                        <a href="./index.html">Anasayfa</a>
+                        <span>Hakkımızda</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+<!-- About US Section Begin -->
+<section class="aboutus-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 p-0">
+                <div class="about-video set-bg" data-setbg="img/about-us.jpg">
+                    <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                        <i class="fa fa-caret-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0">
+                <div class="about-text">
+                    @foreach (var item in Model)
+                    {
+                        <div class="section-title">
+                            <span>@item.TagLine</span>
+                            <h2>Neler yapıyoruz?</h2>
+                        </div>
+                        <div class="at-desc">
+                            <p>@item.Description</p>
+                        </div>
+                    }
+                    
+                    <div class="about-bar">
+                        <div class="ab-item">
+                            <p>Body building</p>
+                            <div id="bar1" class="barfiller">
+                                <span class="fill" data-percentage="80"></span>
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ab-item">
+                            <p>Training</p>
+                            <div id="bar2" class="barfiller">
+                                <span class="fill" data-percentage="85"></span>
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ab-item">
+                            <p>Fitness</p>
+                            <div id="bar3" class="barfiller">
+                                <span class="fill" data-percentage="75"></span>
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About US Section End -->

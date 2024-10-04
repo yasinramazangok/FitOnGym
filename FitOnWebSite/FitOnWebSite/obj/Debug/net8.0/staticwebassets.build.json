@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5JwtRbE3qLYOUQJy2B82GMJRqDLmWqc/y5Ecan9PD7w=",
+  "Hash": "bbbA1aql7/HP7Efm8JtXxJ2+yfMH+/rM55mMWra5r0Q=",
   "Source": "FitOnWebSite",
   "BasePath": "_content/FitOnWebSite",
   "Mode": "Default",
@@ -18369,6 +18369,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GymLife\\img\\classes\\services-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\favicon1.png",
+      "SourceId": "FitOnWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\",
+      "BasePath": "_content/FitOnWebSite",
+      "RelativePath": "GymLife/img/favicon1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GymLife\\img\\favicon1.png"
     },
     {
       "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\fiton-logo-white.svg",

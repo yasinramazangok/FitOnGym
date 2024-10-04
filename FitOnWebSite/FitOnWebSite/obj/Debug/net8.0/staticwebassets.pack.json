@@ -5141,6 +5141,10 @@
       "PackagePath": "staticwebassets\\GymLife\\img\\classes\\services-3.jpg"
     },
     {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\favicon1.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\favicon1.png"
+    },
+    {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\fiton-logo-white.svg",
       "PackagePath": "staticwebassets\\GymLife\\img\\fiton-logo-white.svg"
     },

@@ -1,0 +1,22 @@
+﻿@using EntityLayer.Concretes
+@model List<Gallery>
+
+<!-- Gallery Section Begin -->
+<div class="gallery-section">
+    <div class="gallery">
+        <div class="grid-sizer"></div>
+        <div class="gs-item grid-wide set-bg" data-setbg="/GymLife/img/gallery/gallery-1.jpg">
+            <a href="/GymLife/img/gallery/gallery-1.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+        </div>
+        @foreach (var item in Model)
+        {
+            <div class="gs-item set-bg" data-setbg="@item.ImageUrl">
+                <a href="@item.ImageUrl" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+            </div>
+        }
+        <div class="gs-item grid-wide set-bg" data-setbg="/GymLife/img/gallery/gallery-6.jpg">
+            <a href="/GymLife/img/gallery/gallery-6.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+        </div>
+    </div>
+</div>
+<!-- Gallery Section End -->
