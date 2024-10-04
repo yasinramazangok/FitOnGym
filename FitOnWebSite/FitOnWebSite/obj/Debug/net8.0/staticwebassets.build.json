@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bbbA1aql7/HP7Efm8JtXxJ2+yfMH+/rM55mMWra5r0Q=",
+  "Hash": "jlRkok1iNw69027RWn64W8QIf1Wg9K7PFGS0f0PYbUk=",
   "Source": "FitOnWebSite",
   "BasePath": "_content/FitOnWebSite",
   "Mode": "Default",
@@ -19642,6 +19642,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GymLife\\img\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\services\\author-5.jpg",
+      "SourceId": "FitOnWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\",
+      "BasePath": "_content/FitOnWebSite",
+      "RelativePath": "GymLife/img/services/author-5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GymLife\\img\\services\\author-5.jpg"
     },
     {
       "Identity": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\services\\services-1.jpg",
