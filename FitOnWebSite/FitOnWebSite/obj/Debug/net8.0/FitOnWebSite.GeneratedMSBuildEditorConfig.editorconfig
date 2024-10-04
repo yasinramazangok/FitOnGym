@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/About/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Category/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Category/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Category/Index.cshtml]
@@ -140,6 +148,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/HomePage/UpdateHomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcVXBkYXRlSG9tZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yasin/Desktop/FitOnGym/FitOnWebSite/FitOnWebSite/Views/Plan/AddPlan.cshtml]

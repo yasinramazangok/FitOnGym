@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+@await Html.PartialAsync("/Views/FrontPartials/HeadPartial.cshtml")
+
+<body>
+
+    @await Html.PartialAsync("/Views/FrontPartials/NavbarPartial.cshtml")
+
+    @await Component.InvokeAsync("AboutPartial")
+
+    @await Component.InvokeAsync("AdvantagePartial")
+
+    @await Component.InvokeAsync("TeamPartial")
+
+    @await Component.InvokeAsync("AddressPartial")
+
+    @await Html.PartialAsync("/Views/FrontPartials/FooterPartial.cshtml")
+
+    @await Html.PartialAsync("/Views/FrontPartials/ScriptPartial.cshtml")
+
+</body>
+
+</html>

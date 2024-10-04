@@ -1,0 +1,46 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+@await Html.PartialAsync("/Views/FrontPartials/HeadPartial.cshtml")
+
+<body>
+
+    @await Html.PartialAsync("/Views/FrontPartials/NavbarPartial.cshtml")
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg" data-setbg="/GymLife/img/breadcrumb-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb-text">
+                        <h2>KATEGORİLER</h2>
+                        <div class="bt-option">
+                            <a href="/Default/Index">Ana Sayfa</a>
+                            <span>Kategoriler</span>
+                            @*<span>Body building</span>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    @await Component.InvokeAsync("CategoryPartial")
+
+    @await Component.InvokeAsync("HomePagePartial1")
+
+    @await Component.InvokeAsync("AddressPartial")
+
+    @await Html.PartialAsync("/Views/FrontPartials/FooterPartial.cshtml")
+
+    @await Html.PartialAsync("/Views/FrontPartials/ScriptPartial.cshtml")
+
+</body>
+
+</html>
