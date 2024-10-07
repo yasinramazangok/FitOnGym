@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstracts;
+using EntityLayer.Concretes;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
@@ -13,6 +14,11 @@ namespace FitOnWebSite.Controllers
             return View(values);
         }
 
+        public IActionResult Home()
+        {
+            return View();
+        }
+
         public IActionResult DeleteMessage(int id)
         {
             var value = _contactService.GetById(id);
@@ -24,6 +30,20 @@ namespace FitOnWebSite.Controllers
         {
             var values = _contactService.GetById(id);
             return View(values);
+        }
+
+        [HttpGet]
+        public PartialViewResult SendMessage()
+        {
+            return PartialView();
+        }
+
+        [HttpPost]
+        public IActionResult SendMessage(Contact contact)
+        {
+            contact.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
+            _contactService.Insert(contact);
+            return RedirectToAction("Home", "Contact");
         }
     }
 }

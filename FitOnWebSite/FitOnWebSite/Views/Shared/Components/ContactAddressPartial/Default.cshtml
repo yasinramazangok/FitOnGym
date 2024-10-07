@@ -1,0 +1,29 @@
+﻿@using EntityLayer.Concretes
+@model List<Address>
+
+@foreach (var item in Model)
+{
+    <div class="col-lg-6">
+        <div class="section-title contact-title">
+            <span>BİZE ULAŞIN</span>
+            <h2>SİZE EN KISA SÜREDE DÖNÜŞ YAPACAĞIZ..</h2>
+        </div>
+        <div class="contact-widget">
+            <div class="cw-text">
+                <i class="fa fa-map-marker"></i>
+                <p>@item.Neighbourhood, @item.Avenue, @item.District, @item.City @item.PostalCode</p>
+            </div>
+            <div class="cw-text">
+                <i class="fa fa-mobile"></i>
+                <ul>
+                    <li>@item.PhoneNumber</li>
+                    <li>@item.PhoneNumber1</li>
+                </ul>
+            </div>
+            <div class="cw-text email">
+                <i class="fa fa-envelope"></i>
+                <p>@item.Email</p>
+            </div>
+        </div>
+    </div>
+}

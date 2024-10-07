@@ -17,6 +17,11 @@ namespace FitOnWebSite.Controllers
             return View(values);
         }
 
+        public IActionResult Home()
+        {
+            return View();
+        }
+
         [HttpGet]
         public IActionResult AddGallery()
         {

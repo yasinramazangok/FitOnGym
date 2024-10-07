@@ -1,0 +1,15 @@
+﻿@* <div class="map">
+    <iframe src="@ViewBag.m"
+            height="550" style="border:0;" allowfullscreen=""></iframe>
+</div> *@
+
+@using EntityLayer.Concretes
+@model List<Address>
+
+@foreach (var item in Model)
+{
+    <div class="map">
+        <iframe src="@item.MapInformation"
+                height="550" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+}

@@ -1,0 +1,15 @@
+﻿@model EntityLayer.Concretes.Contact
+
+<div class="col-lg-6">
+    <div class="leave-comment">
+        @using (Html.BeginForm("SendMessage", "Contact", FormMethod.Post))
+        {
+            <input type="text" placeholder="İsim" asp-for="PersonName">
+            <input type="text" placeholder="Email" asp-for="Email">
+            <input type="text" placeholder="Website" asp-for="PersonName">
+            <textarea placeholder="Mesajınız" asp-for="Message"></textarea>
+            <button type="submit">Gönder</button>
+        }
+    </div>
+</div>
+

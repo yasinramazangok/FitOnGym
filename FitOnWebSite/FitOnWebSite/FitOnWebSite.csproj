@@ -31,13 +31,4 @@
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Pages\About\" />
-    <Folder Include="Views\Pages\Category\" />
-    <Folder Include="Views\Pages\Gallery\" />
-    <Folder Include="Views\Pages\Contact\" />
-    <Folder Include="Views\Pages\Team\" />
-    <Folder Include="Views\Pages\Service\" />
-  </ItemGroup>
-
 </Project>
