@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|c:\\users\\yasin\\desktop\\fitongym\\fitonwebsite\\fitonwebsite\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1AF053D-AABB-4733-BCA4-73F177EEA9DE}|FitOnWebSite\\FitOnWebSite.csproj|solutionrelative:fitonwebsite\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 29,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,19 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "FitOnWebSite\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "FitOnWebSite\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T19:39:25.359Z",
-              "EditorCaption": ""
             }
           ]
         }

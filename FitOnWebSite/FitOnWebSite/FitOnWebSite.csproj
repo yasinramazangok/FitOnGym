@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\Elegent\**" />
+    <Content Remove="wwwroot\Elegent\**" />
+    <EmbeddedResource Remove="wwwroot\Elegent\**" />
+    <None Remove="wwwroot\Elegent\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.102.3" />
     <PackageReference Include="EPPlus" Version="7.3.2" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
