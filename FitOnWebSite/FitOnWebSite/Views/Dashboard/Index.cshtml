@@ -18,7 +18,7 @@
         <div class="d-sm-flex justify-content-between align-items-center transparent-tab-border">
             <ul class="nav nav-tabs tab-transparent" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home-1" role="tab" aria-selected="false">Genel</a>
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home-1" role="tab" aria-selected="true">Genel</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="business-tab" data-toggle="tab" href="#business-1" role="tab" aria-selected="true">Ekip Bilgileri</a>
@@ -40,10 +40,11 @@
                 @await Component.InvokeAsync("DashboardFirstPartial", new { pageName = "Ekip Bilgileri" })
 
             </div>
-
+                       
             @await Component.InvokeAsync("DashboardSecondPartial")
 
-            @await Component.InvokeAsync("DashboardSecondPartial")
+            @await Component.InvokeAsync("DashboardThirdPartial") 
+          
         </div>
     </div>
 </div>
