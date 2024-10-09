@@ -41,7 +41,7 @@ namespace FitOnWebSite
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Default}/{action=Index}/{id?}");
+                pattern: "{controller=Dashboard}/{action=Index}/{id?}");
 
             app.Run();
         }
