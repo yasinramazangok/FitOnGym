@@ -3,6 +3,7 @@ using BusinessLayer.ValidationRules;
 using EntityLayer.Concretes;
 using FluentValidation;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers

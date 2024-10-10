@@ -23,6 +23,8 @@ namespace FitOnWebSite
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            //builder.Services.AddSwaggerGen();
+
             builder.Services.AddMvc(config =>
             {
                 var policy = new AuthorizationPolicyBuilder()
@@ -31,41 +33,43 @@ namespace FitOnWebSite
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
 
-            builder.Services.AddMvc();
-
             builder.Services.AddAuthentication(
                 CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(x =>
+                .AddCookie(options =>
                 {
-                    x.LoginPath = "/Login/Index/";
+                    options.LoginPath = "/Login/Index/";
                 });
 
-
             var app = builder.Build();
-
-
-
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
-                app.UseExceptionHandler("/Admin/Error/");
+                app.UseExceptionHandler("/Home/Error/");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
+            //app.UseSwagger();
+            //app.UseSwaggerUI(s =>
+            //{
+            //    s.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            //    // s.RoutePrefix = string.Empty; 
+            //});
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseAuthentication(); 
-
             app.UseRouting();
 
+            app.UseAuthentication();
+         
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Default}/{action=Index}/{id?}");
+                pattern: "{controller=Default}/{action=Index}/{id?}"
+            );
 
             app.Run();
         }

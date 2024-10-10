@@ -9,7 +9,9 @@ C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\FitOn
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\ClosedXML.Parser.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\EPPlus.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\EPPlus.Interfaces.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\EPPlus.System.Drawing.dll
@@ -18,7 +20,6 @@ C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Fluen
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Humanizer.dll
-C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Irony.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -44,11 +45,14 @@ C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Micro
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -80,6 +84,7 @@ C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\NuGet
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\NuGet.ProjectModel.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\RBush.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -97,7 +102,6 @@ C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\Syste
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\XLParser.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\af\Humanizer.resources.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\ar\Humanizer.resources.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\FitOnWebSite\bin\Debug\net8.0\az\Humanizer.resources.dll

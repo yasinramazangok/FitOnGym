@@ -6,8 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace FitOnWebSite.Controllers
 {
     [AllowAnonymous]
-    public class DefaultController : Controller
+    public class DefaultController(IContactService contactService) : Controller
     {
+        private readonly IContactService _contactService = contactService; // Primary Constructor
+
         public IActionResult Index()
         {
             return View();
@@ -19,16 +21,16 @@ namespace FitOnWebSite.Controllers
             return PartialView();
         }
 
-        //[HttpPost]
-        //public IActionResult SendMessage(Contact contact)
-        //{
-        //    contact.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
-        //    _contactService.Insert(contact);
-        //    return RedirectToAction("Index", "Default");
-        //}
-        //public PartialViewResult ScriptPartial()
-        //{
-        //    return PartialView();
-        //}
+        [HttpPost]
+        public IActionResult SendMessage(Contact contact)
+        {
+            contact.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
+            _contactService.Insert(contact);
+            return RedirectToAction("Index", "Default");
+        }
+        public PartialViewResult ScriptPartial()
+        {
+            return PartialView();
+        }
     }
 }

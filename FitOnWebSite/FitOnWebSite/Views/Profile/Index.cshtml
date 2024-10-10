@@ -1,0 +1,41 @@
+﻿@model FitOnWebSite.Models.UserEditModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Profil Güncelle</h4>
+            <form class="forms-sample" method="post">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Email adresini giriniz" asp-for="Email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Telefon Numarası</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" placeholder="Telefon numarasını giriniz" asp-for="Phone">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Şifre</label>
+                    <div class="col-sm-9">
+                        <textarea type="text" class="form-control" placeholder="Şifreyi giriniz" asp-for="Password"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Şifre Tekrar</label>
+                    <div class="col-sm-9">
+                        <textarea type="text" class="form-control" placeholder="Şifreyi tekrar giriniz" asp-for="PasswordConfirm"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mr-2">Kaydet</button>
+                <a class="btn btn-outline-secondary mr-2" href="/Advantage/Index/">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>

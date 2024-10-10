@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace FitOnWebSite.Models
 {
-    public class LoginModel
+    public class LoginModel : IdentityUser
     {
         [Required(ErrorMessage = "Lütfen kullanıcı adını giriniz!")]
         public string UserName { get; set; }

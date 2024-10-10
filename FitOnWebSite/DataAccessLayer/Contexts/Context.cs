@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concretes;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore; // for IdentityDbContext
 using Microsoft.EntityFrameworkCore; // for DbContext
 using System;
