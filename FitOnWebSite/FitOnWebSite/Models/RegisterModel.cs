@@ -7,7 +7,7 @@ namespace FitOnWebSite.Models
         [Required(ErrorMessage = "Lütfen kullanıcı adını giriniz!")]
         public string UserName { get; set; }
 
-        [Required(ErrorMessage = "Lütfen mail giriniz!")]
+        [Required(ErrorMessage = "Lütfen email giriniz!")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Lütfen şifreyi giriniz!")]

@@ -2,6 +2,7 @@ using BusinessLayer.Containers;
 using DataAccessLayer.Contexts;
 using Microsoft.AspNetCore.Authentication.Cookies; // for CookieAuthenticationDefaults
 using Microsoft.AspNetCore.Authorization; // for AuthorizationPolicyBuilder
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization; // for AuthorizeFilter
 
 namespace FitOnWebSite
@@ -13,6 +14,8 @@ namespace FitOnWebSite
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddDbContext<Context>(); // for database
+
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Context>();
 
             builder.Services.ContainerDependencies();
 

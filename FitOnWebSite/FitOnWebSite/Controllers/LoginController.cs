@@ -5,8 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
+        // Login and Sign Up Operations
+
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
@@ -16,7 +19,6 @@ namespace FitOnWebSite.Controllers
             _signInManager = signInManager;
         }
 
-        [AllowAnonymous]
         [HttpGet]
         public IActionResult Index()
         {
@@ -46,6 +48,7 @@ namespace FitOnWebSite.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> SignUp(RegisterModel registerModel)
         {
