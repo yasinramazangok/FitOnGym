@@ -1,4 +1,5 @@
-﻿
+﻿@model FitOnWebSite.Models.LoginModel
+
 @{
     Layout = null;
 }
@@ -8,13 +9,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DarkPan - Bootstrap 5 Admin Template</title>
+    <title>FitOn Gym Admin Girişi</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="~\ConnectPlusAdmin\assets\images\favicon1.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,25 +55,25 @@
                             <a href="~/DarkPan/index.html" class="">
                                 <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>DarkPan</h3>
                             </a>
-                            <h3>Sign In</h3>
+                            <h3>Admin Giriş</h3>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Kullanıcı adını giriniz" asp-for="UserName">
+                            <label for="floatingInput">Kullanıcı Adı</label>
                         </div>
                         <div class="form-floating mb-4">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Password</label>
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Şifreyi giriniz" asp-for="Password">
+                            <label for="floatingPassword">Şifre</label>
                         </div>
                         <div class="d-flex align-items-center justify-content-between mb-4">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
                             </div>
-                            <a href="">Forgot Password</a>
+                            <a href="">Şifrenizi mi unuttunuz?</a>
                         </div>
-                        <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Sign In</button>
-                        <p class="text-center mb-0">Don't have an Account? <a href="">Sign Up</a></p>
+                        <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Giriş Yap</button>
+                        <p class="text-center mb-0">Bir hesabınız yok mu? <a href="">Kayıt Ol</a></p>
                     </div>
                 </div>
             </div>
@@ -92,7 +93,8 @@
     <script src="~/DarkPan/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="~/DarkPan/js/main.js"></script>
+
 </body>
 
 </html>

@@ -30,10 +30,10 @@ namespace FitOnWebSite.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(loginModel.UserName, loginModel.Password, false, false);
+                var result = await _signInManager.PasswordSignInAsync(loginModel.UserName, loginModel.Password, false, false); // username, password, isPersistent, lockoutOnFailure
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Admin");
+                    return RedirectToAction("Index", "Dashboard");
                 }
                 else
                 {

@@ -2,6 +2,7 @@ using BusinessLayer.Containers;
 using DataAccessLayer.Contexts;
 using Microsoft.AspNetCore.Authentication.Cookies; // for CookieAuthenticationDefaults
 using Microsoft.AspNetCore.Authorization; // for AuthorizationPolicyBuilder
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization; // for AuthorizeFilter
 
@@ -48,7 +49,7 @@ namespace FitOnWebSite
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
-                app.UseExceptionHandler("/Admin/Error");
+                app.UseExceptionHandler("/Admin/Error/");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
@@ -56,13 +57,15 @@ namespace FitOnWebSite
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            app.UseAuthentication(); 
+
             app.UseRouting();
 
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Dashboard}/{action=Index}/{id?}");
+                pattern: "{controller=Default}/{action=Index}/{id?}");
 
             app.Run();
         }
