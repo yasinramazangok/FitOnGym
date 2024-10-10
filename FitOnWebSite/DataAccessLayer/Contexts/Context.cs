@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concretes;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore; // for IdentityDbContext
 using Microsoft.EntityFrameworkCore; // for DbContext
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,9 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Contexts
 {
-    public class Context : DbContext
+    //public class Context : DbContext
+
+    public class Context : IdentityDbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

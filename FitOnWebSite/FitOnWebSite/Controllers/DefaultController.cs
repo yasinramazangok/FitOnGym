@@ -1,10 +1,11 @@
 ﻿using BusinessLayer.Abstracts;
 using EntityLayer.Concretes;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
-    
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         public IActionResult Index()
