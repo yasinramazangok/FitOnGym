@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FitOnWebSite.Models
 {
-    public class LoginModel : IdentityUser
+    public class LoginModel 
     {
         [Required(ErrorMessage = "Lütfen kullanıcı adını giriniz!")]
         public string UserName { get; set; }

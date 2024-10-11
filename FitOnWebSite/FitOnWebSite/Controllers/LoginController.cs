@@ -33,12 +33,28 @@ namespace FitOnWebSite.Controllers
                 var result = await _signInManager.PasswordSignInAsync(loginModel.UserName, loginModel.Password, false, false); // username, password, isPersistent, lockoutOnFailure
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Dashboard");
+                    return RedirectToAction("Index", "Admin");
                 }
                 else
                 {
-                    return RedirectToAction("Index");
+
+                    // Hata durumunu kontrol et
+                    if (result.IsLockedOut)
+                    {
+                        ModelState.AddModelError("", "Kullanıcı hesabınız kilitlenmiştir.");
+                    }
+                    else if (result.IsNotAllowed)
+                    {
+                        ModelState.AddModelError("", "Bu kullanıcı için giriş yapılmasına izin verilmiyor.");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Kullanıcı adı veya şifre hatalı.");
+                    }
+                        return View();
+                        //return RedirectToAction("Index");
                 }
+                Console.WriteLine("Yönlendirme sonrası durum kodu: " + HttpContext.Response.StatusCode);
             }
             return View();
         }

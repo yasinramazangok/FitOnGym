@@ -12,7 +12,7 @@ namespace DataAccessLayer.Contexts
 {
     //public class Context : DbContext
 
-    public class Context : IdentityDbContext
+    public class Context : IdentityDbContext<IdentityUser>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

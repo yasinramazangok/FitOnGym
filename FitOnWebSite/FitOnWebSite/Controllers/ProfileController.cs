@@ -1,4 +1,5 @@
 ﻿using FitOnWebSite.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,8 +19,8 @@ namespace FitOnWebSite.Controllers
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
             UserEditModel userEditModel = new UserEditModel();
-            userEditModel.Email = values.Email;
-            userEditModel.Phone = values.PhoneNumber;
+            userEditModel.Name = values.UserName;
+            userEditModel.PhoneNumber = values.PhoneNumber;
             return View(userEditModel);
         }
         [HttpPost]
@@ -28,8 +29,8 @@ namespace FitOnWebSite.Controllers
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
             if (userEditModel.Password == userEditModel.PasswordConfirm)
             {
-                values.Email = userEditModel.Email;
-                values.PhoneNumber = userEditModel.Phone;
+                values.UserName = userEditModel.Name;
+                values.PhoneNumber = userEditModel.PhoneNumber;
                 values.PasswordHash = _userManager.PasswordHasher.HashPassword(values, userEditModel.Password);
                 var result = await _userManager.UpdateAsync(values);
                 if (result.Succeeded)

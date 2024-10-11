@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cDzefX9+2fw=",
+  "dgSpecHash": "08y93vveFVk=",
   "success": true,
   "projectFilePath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\FitOnWebSite.csproj",
   "expectedPackageFiles": [
@@ -83,6 +83,7 @@
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.aspnetcore.identity\\2.2.0\\microsoft.aspnetcore.identity.2.2.0.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.10\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.10.nupkg.sha512",
+    "C:\\Users\\yasin\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.10\\microsoft.aspnetcore.identity.ui.8.0.10.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -121,6 +122,7 @@
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.2\\microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\yasin\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\8.0.10\\microsoft.extensions.fileproviders.embedded.8.0.10.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
     "C:\\Users\\yasin\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",

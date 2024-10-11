@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Authorization; // for AuthorizationPolicyBuilder
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization; // for AuthorizeFilter
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace FitOnWebSite
 {
@@ -13,10 +15,13 @@ namespace FitOnWebSite
         private static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            var connectionString = builder.Configuration.GetConnectionString("ContextConnection") ?? throw new InvalidOperationException("Veritabanýna baðlanýlamadý!");
 
             builder.Services.AddDbContext<Context>(); // for database
 
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Context>();
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<Context>();
+
+            //builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Context>();
 
             builder.Services.ContainerDependencies();
 
@@ -38,6 +43,8 @@ namespace FitOnWebSite
                 .AddCookie(options =>
                 {
                     options.LoginPath = "/Login/Index/";
+                    options.Cookie.Name = "FitOnAuthCookie"; 
+                    options.Cookie.HttpOnly = true; 
                 });
 
             var app = builder.Build();
