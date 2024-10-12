@@ -1,11 +1,13 @@
 ﻿using ClosedXML.Excel; // for XLWorkbook
 using DataAccessLayer.Contexts;
 using FitOnWebSite.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OfficeOpenXml; // for ExcelPackage
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class ReportController : Controller
     {
         public IActionResult Index()

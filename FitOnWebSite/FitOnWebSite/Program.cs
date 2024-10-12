@@ -1,5 +1,7 @@
 using BusinessLayer.Containers;
 using DataAccessLayer.Contexts;
+using FitOnWebSite.Data;
+using FitOnWebSite.Models;
 using Microsoft.AspNetCore.Authentication.Cookies; // for CookieAuthenticationDefaults
 using Microsoft.AspNetCore.Authorization; // for AuthorizationPolicyBuilder
 using Microsoft.AspNetCore.Builder;
@@ -7,6 +9,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization; // for AuthorizeFilter
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using System;
+using Context = FitOnWebSite.Data.Context;
 
 namespace FitOnWebSite
 {
@@ -15,38 +19,36 @@ namespace FitOnWebSite
         private static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            var connectionString = builder.Configuration.GetConnectionString("ContextConnection") ?? throw new InvalidOperationException("Veritabanýna baðlanýlamadý!");
 
-            builder.Services.AddDbContext<Context>(); // for database
-
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<Context>();
-
-            //builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Context>();
-
-            builder.Services.ContainerDependencies();
+            var connectionString = builder.Configuration.GetConnectionString("FitOnWebSiteContextConnection");
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            //builder.Services.AddSwaggerGen();
+            builder.Services.AddDbContext<Context>(); // for database
 
-            builder.Services.AddMvc(config =>
-            {
-                var policy = new AuthorizationPolicyBuilder()
-                .RequireAuthenticatedUser()
-                .Build();
-                config.Filters.Add(new AuthorizeFilter(policy));
-            });
+            builder.Services.AddIdentity<AppUser, IdentityRole>
+    (
+        options =>
+        {
+            options.Password.RequiredUniqueChars = 0;
+            options.Password.RequireUppercase = false;
+            options.Password.RequiredLength = 8;
+            options.Password.RequireNonAlphanumeric = false;
+            options.Password.RequireLowercase = false;
 
-            builder.Services.AddAuthentication(
-                CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
-                {
-                    options.LoginPath = "/Login/Index/";
-                    options.Cookie.Name = "FitOnAuthCookie"; 
-                    options.Cookie.HttpOnly = true; 
-                });
+        }
 
+    )
+    .AddEntityFrameworkStores<Context>()
+    .AddDefaultTokenProviders();
+
+
+
+            builder.Services.ContainerDependencies();        
+
+            builder.Services.AddMvc();
+        
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -57,20 +59,11 @@ namespace FitOnWebSite
                 app.UseHsts();
             }
 
-            //app.UseSwagger();
-            //app.UseSwaggerUI(s =>
-            //{
-            //    s.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-            //    // s.RoutePrefix = string.Empty; 
-            //});
-
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
-            app.UseAuthentication();
-         
             app.UseAuthorization();
 
             app.MapControllerRoute(

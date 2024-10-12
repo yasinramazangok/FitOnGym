@@ -1,9 +1,11 @@
 ﻿using BusinessLayer.Abstracts;
 using EntityLayer.Concretes;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class AdminController(IAdminService adminService) : Controller
     {
         private readonly IAdminService _adminService = adminService; // Primary Constructor

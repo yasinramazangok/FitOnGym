@@ -2,10 +2,12 @@
 using BusinessLayer.ValidationRules;
 using EntityLayer.Concretes;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class TeamController(ITeamService teamService) : Controller
     {
         private readonly ITeamService _teamService = teamService; // Primary Constructor
@@ -16,6 +18,7 @@ namespace FitOnWebSite.Controllers
             return View(values);
         }
 
+        [AllowAnonymous]
         public IActionResult Home()
         {
             return View();

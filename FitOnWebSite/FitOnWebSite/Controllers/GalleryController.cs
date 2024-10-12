@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class GalleryController(IGalleryService galleryService) : Controller
     {
         private readonly IGalleryService _galleryService = galleryService; // Primary Constructor
@@ -18,6 +19,7 @@ namespace FitOnWebSite.Controllers
             return View(values);
         }
 
+        [AllowAnonymous]
         public IActionResult Home()
         {
             return View();

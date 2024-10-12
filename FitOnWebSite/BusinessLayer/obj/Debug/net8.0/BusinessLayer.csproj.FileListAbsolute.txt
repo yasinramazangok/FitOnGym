@@ -1,4 +1,5 @@
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\bin\Debug\net8.0\BusinessLayer.runtimeconfig.json
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
@@ -15,4 +16,5 @@ C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\obj\Debug\net8.0\Busi
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\obj\Debug\net8.0\BusinessLayer.genruntimeconfig.cache
 C:\Users\yasin\Desktop\FitOnGym\FitOnWebSite\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

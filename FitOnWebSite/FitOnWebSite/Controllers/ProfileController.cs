@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class ProfileController : Controller
     {
         private readonly UserManager<IdentityUser> _userManager;

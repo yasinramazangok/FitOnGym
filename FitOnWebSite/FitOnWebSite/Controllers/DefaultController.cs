@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
-    [AllowAnonymous]
     public class DefaultController(IContactService contactService) : Controller
     {
         private readonly IContactService _contactService = contactService; // Primary Constructor

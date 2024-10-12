@@ -2,10 +2,12 @@
 using BusinessLayer.ValidationRules;
 using EntityLayer.Concretes;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class AddressController(IAddressService addressService) : Controller
     {
         private readonly IAddressService _addressService = addressService; // Primary Constructor

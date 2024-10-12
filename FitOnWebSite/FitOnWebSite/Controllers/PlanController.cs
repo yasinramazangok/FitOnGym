@@ -2,10 +2,12 @@
 using BusinessLayer.ValidationRules;
 using EntityLayer.Concretes;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class PlanController(IPlanService planService) : Controller
     {
         private readonly IPlanService _planService = planService; // Primary Constructor

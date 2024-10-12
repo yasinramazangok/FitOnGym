@@ -50,6 +50,11 @@
                         <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Team" ? "active" : "")"><a href="/Team/Home/">EKİBİMİZ</a></li>
                         <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Gallery" ? "active" : "")"><a href="/Gallery/Home/">GALERİ</a></li>
                         <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Contact" ? "active" : "")"><a href="/Contact/Home/">İLETİŞİM</a></li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Contact" ? "active" : "")">
+                            <a href="/Contact/Home/">
+                                <partial name="_LoginPartial" />
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>

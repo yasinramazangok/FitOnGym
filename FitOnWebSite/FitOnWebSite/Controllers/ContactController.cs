@@ -1,9 +1,11 @@
 ﻿using BusinessLayer.Abstracts;
 using EntityLayer.Concretes;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class ContactController(IContactService contactService) : Controller
     {
         private readonly IContactService _contactService = contactService; // Primary Constructors
@@ -14,6 +16,7 @@ namespace FitOnWebSite.Controllers
             return View(values);
         }
 
+        [AllowAnonymous]
         public IActionResult Home()
         {
             return View();

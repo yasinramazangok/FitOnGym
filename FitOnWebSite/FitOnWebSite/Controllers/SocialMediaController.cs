@@ -3,10 +3,12 @@ using BusinessLayer.ValidationRules;
 using EntityLayer.Concretes;
 using FluentValidation;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class SocialMediaController(ISocialMediaService socialMediaService) : Controller
     {
         private readonly ISocialMediaService _socialMediaService = socialMediaService; // Primary Constructor

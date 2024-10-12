@@ -3,10 +3,12 @@ using BusinessLayer.ValidationRules;
 using EntityLayer.Concretes;
 using FluentValidation;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitOnWebSite.Controllers
 {
+    [Authorize]
     public class ServiceController(IServiceService serviceService) : Controller
     {
         private readonly IServiceService _serviceService = serviceService; // Primary Constructor
@@ -17,6 +19,7 @@ namespace FitOnWebSite.Controllers
             return View(values);
         }
 
+        [AllowAnonymous]
         public IActionResult Home()
         {
             return View();
