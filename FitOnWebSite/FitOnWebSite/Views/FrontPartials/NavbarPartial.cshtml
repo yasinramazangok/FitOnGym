@@ -36,7 +36,7 @@
             <div class="col-lg-3">
                 <div class="logo">
                     <a href="/Default/Index/">
-                        <img src="~/GymLife/img/fiton-logo-white.svg" alt="logo">
+                        <img src="~/GymLife/img/fiton-logo.svg" alt="logo">
                     </a>
                 </div>
             </div>
@@ -49,12 +49,8 @@
                         <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Service" ? "active" : "")"><a href="/Service/Home/">HİZMETLER</a></li>
                         <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Team" ? "active" : "")"><a href="/Team/Home/">EKİBİMİZ</a></li>
                         <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Gallery" ? "active" : "")"><a href="/Gallery/Home/">GALERİ</a></li>
+                        @*<li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Gallery" ? "active" : "")"><a href="https://www.linkedin.com/in/yasinramazangok/" target="_blank">BLOG</a></li>*@
                         <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Contact" ? "active" : "")"><a href="/Contact/Home/">İLETİŞİM</a></li>
-                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Contact" ? "active" : "")">
-                            <a href="/Contact/Home/">
-                                <partial name="_LoginPartial" />
-                            </a>
-                        </li>
                     </ul>
                 </nav>
             </div>

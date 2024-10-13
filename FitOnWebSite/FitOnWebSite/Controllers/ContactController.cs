@@ -36,12 +36,14 @@ namespace FitOnWebSite.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public PartialViewResult SendMessage()
         {
             return PartialView();
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public IActionResult SendMessage(Contact contact)
         {
             contact.Date = DateTime.Parse(DateTime.Now.ToShortDateString());

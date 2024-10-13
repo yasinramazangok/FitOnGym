@@ -36,19 +36,15 @@ namespace FitOnWebSite
             options.Password.RequiredLength = 8;
             options.Password.RequireNonAlphanumeric = false;
             options.Password.RequireLowercase = false;
-
         }
-
     )
     .AddEntityFrameworkStores<Context>()
     .AddDefaultTokenProviders();
 
-
-
-            builder.Services.ContainerDependencies();        
+            builder.Services.ContainerDependencies();
 
             builder.Services.AddMvc();
-        
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

@@ -461,10 +461,6 @@
       "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\favicon1.png",
-      "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\favicon1.png"
-    },
-    {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\file-icons\\128\\001-interface-1.png",
       "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\file-icons\\128\\001-interface-1.png"
     },
@@ -689,8 +685,8 @@
       "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\file-icons\\vivaldi.png"
     },
     {
-      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fiton-logo-white.svg",
-      "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\fiton-logo-white.svg"
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fiton-favicon.png",
+      "PackagePath": "staticwebassets\\ConnectPlusAdmin\\assets\\images\\fiton-favicon.png"
     },
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\ConnectPlusAdmin\\assets\\images\\fiton-logo.svg",
@@ -3637,12 +3633,28 @@
       "PackagePath": "staticwebassets\\DarkPan\\form.html"
     },
     {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\DarkPan\\img\\fiton-favicon.png",
+      "PackagePath": "staticwebassets\\DarkPan\\img\\fiton-favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\DarkPan\\img\\fiton-logo.svg",
+      "PackagePath": "staticwebassets\\DarkPan\\img\\fiton-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\DarkPan\\img\\slider-bg-1.jpg",
+      "PackagePath": "staticwebassets\\DarkPan\\img\\slider-bg-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\DarkPan\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\DarkPan\\img\\testimonial-1.jpg"
     },
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\DarkPan\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\DarkPan\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\DarkPan\\img\\trainer-bg.jpg",
+      "PackagePath": "staticwebassets\\DarkPan\\img\\trainer-bg.jpg"
     },
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\DarkPan\\img\\user.jpg",
@@ -5641,12 +5653,12 @@
       "PackagePath": "staticwebassets\\GymLife\\img\\classes\\services-3.jpg"
     },
     {
-      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\favicon1.png",
-      "PackagePath": "staticwebassets\\GymLife\\img\\favicon1.png"
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\fiton-favicon.png",
+      "PackagePath": "staticwebassets\\GymLife\\img\\fiton-favicon.png"
     },
     {
-      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\fiton-logo-white.svg",
-      "PackagePath": "staticwebassets\\GymLife\\img\\fiton-logo-white.svg"
+      "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\fiton-logo.svg",
+      "PackagePath": "staticwebassets\\GymLife\\img\\fiton-logo.svg"
     },
     {
       "Id": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\FitOnWebSite\\wwwroot\\GymLife\\img\\gallery\\gallery-1.jpg",

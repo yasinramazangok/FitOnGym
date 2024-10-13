@@ -68,7 +68,7 @@ namespace FitOnWebSite.Controllers
 
                 if (result.Succeeded)
                 {
-                    await _signInManager.SignInAsync(user, false);
+                    // await _signInManager.SignInAsync(user, false);
 
                     return RedirectToLocal(returnUrl);
                 }

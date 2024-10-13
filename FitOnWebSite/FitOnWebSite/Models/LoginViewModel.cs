@@ -5,10 +5,10 @@ namespace FitOnWebSite.Models
 {
     public class LoginViewModel 
     {
-        [Required(ErrorMessage = "Kullanıcı adını girmelisiniz!")]
+        [Required(ErrorMessage = "Email adresinizi girmelisiniz!")]
         public string? Username { get; set; }
 
-        [Required(ErrorMessage = "Şifreyi girmelisiniz!")]
+        [Required(ErrorMessage = "Şifrenizi girmelisiniz!")]
         [DataType(DataType.Password)]
         public string? Password { get; set; }
 

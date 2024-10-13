@@ -2,10 +2,16 @@
     Partial View
 *@
 
+<style>
+    .navbar .navbar-brand-wrapper {
+        background-color: #181824;
+    }
+</style>
+
 <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
-    <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo" href="index.html"><img src="~/ConnectPlusAdmin/assets/images/fiton-logo-white.svg" alt="logo" /></a>
-        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="~/ConnectPlusAdmin/assets/images/favicon1.png" alt="logo" /></a>
+    <div class="text-center navbar navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo" href="/Dashboard/Index/"><img src="~/ConnectPlusAdmin/assets/images/fiton-logo.svg" alt="logo" /></a>
+        <a class="navbar-brand brand-logo-mini" href="#"><img src="~/ConnectPlusAdmin/assets/images/fiton-favicon.png" alt="logo" /></a>
     </div>
     <div class="navbar-menu-wrapper d-flex align-items-stretch">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -181,7 +187,7 @@
                         <i class="mdi mdi-lock ml-1"></i>
                         </a>
                         *@
-                        <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
+                        <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="/Account/Logout/">
                             <span>Çıkış Yap</span>
                             <i class="mdi mdi-logout ml-1"></i>
                         </a>
