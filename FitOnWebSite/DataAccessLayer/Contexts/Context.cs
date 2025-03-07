@@ -16,7 +16,7 @@ namespace DataAccessLayer.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server = MEHMETALIGOK; database = FitOnWebSiteDatabase; integrated security = true; trustservercertificate = true;");
+            optionsBuilder.UseSqlServer("server = YASINRAMAZANGOK; database = FitOnWebSiteDatabase; integrated security = true; trustservercertificate = true;");
         }
 
         public DbSet<About> Abouts { get; set; }

@@ -11,5 +11,6 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfAboutDal : GenericRepositoryDal<About>, IAboutDal
     {
+        
     }
 }

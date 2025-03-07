@@ -4215,23 +4215,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yasin\\.nuget\\packages\\": {},
+    "C:\\Users\\yasinramazangok\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\EntityLayer.csproj",
+      "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\EntityLayer.csproj",
       "projectName": "EntityLayer",
-      "projectPath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\EntityLayer.csproj",
-      "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yasin\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\obj\\",
+      "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\EntityLayer.csproj",
+      "packagesPath": "C:\\Users\\yasinramazangok\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yasinramazangok\\Desktop\\FitOnGym\\FitOnWebSite\\EntityLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yasinramazangok\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4258,7 +4258,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -4305,7 +4306,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
